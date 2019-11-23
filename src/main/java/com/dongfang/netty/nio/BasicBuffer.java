@@ -24,6 +24,21 @@ public class BasicBuffer {
         // 将buffer转换，读写切换
         intBuffer.flip();
 
+        /*
+        读取数据不能超过5
+        *     public Buffer flip() {
+        limit = position;
+        position = 0;
+        mark = -1;
+        return this;
+    }
+        * */
+
+        // 设置后从位置1开始读取
+        intBuffer.position(1);
+
+        // 1 2不能超过3
+        intBuffer.limit(3);
         while (intBuffer.hasRemaining()) {
             System.out.println(intBuffer.get());
         }
