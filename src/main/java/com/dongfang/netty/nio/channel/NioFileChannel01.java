@@ -1,4 +1,4 @@
-package com.dongfang.netty.nio;
+package com.dongfang.netty.nio.channel;
 
 import java.io.FileOutputStream;
 import java.io.IOException;

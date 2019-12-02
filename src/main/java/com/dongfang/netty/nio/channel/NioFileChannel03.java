@@ -1,4 +1,4 @@
-package com.dongfang.netty.nio;
+package com.dongfang.netty.nio.channel;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

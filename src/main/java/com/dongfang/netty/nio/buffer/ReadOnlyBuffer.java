@@ -1,4 +1,4 @@
-package com.dongfang.netty.nio;
+package com.dongfang.netty.nio.buffer;
 
 import java.nio.ByteBuffer;
 
